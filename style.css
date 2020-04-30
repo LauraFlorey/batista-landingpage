@@ -41,11 +41,24 @@ section#banner {
   background: #0f0c29;
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-  padding: 30px;
+  padding:10px 20px;
   text-align: center;
   font-size: 30px;
   color: white;
   flex-direction:column;
+}
+
+section#banner p {
+padding:0 10%;
+font-size: 18px;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+section#banner h1 {
+  font-size:26px;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
 /* Container for flexboxes */
@@ -94,7 +107,7 @@ article {
 }
 
 img {
-  max-width:150px;
+  max-width:100px;
   height:auto;
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,.5);
 }
@@ -110,6 +123,12 @@ img.content {
   box-shadow:none;
 }
 
+.images {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+}
 /*bullet styles*/
 
 ul {
@@ -164,8 +183,23 @@ footer {
 }
 
 /* Responsive layout */
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   section {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
+
+  /*text styles*/
+h1 {
+  font-size:28px;
+}
+
+h2 {
+  font-size:26px;
+}
+
+h3 {
+font-size:24px;
+}
+
+}
