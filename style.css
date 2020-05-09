@@ -85,9 +85,6 @@ a.btn:hover, a.btn:focus  {
 }
 
 
-
-
-
 a.btn i {
   margin-right: 30px;
   font-size: 2em;
@@ -175,9 +172,6 @@ aside {
 
 /* Style the content */
 article {
-  -webkit-flex: 4;
-  -ms-flex: 4;
-  flex: 4;
   padding: 0;
 }
 article#form {
@@ -280,9 +274,7 @@ footer {
     flex-direction: column;
   }
   
-  aside {
-    order:2;
-  }
+
 
   /*text styles*/
 h1 {
